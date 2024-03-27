@@ -1,0 +1,48 @@
+.cloud-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 55px;
+  position: relative;
+}
+
+.cloud-image {
+  width: 170px; /* Adjust cloud image size as needed */
+  height: auto;
+}
+
+.cloud-container {
+  position: relative;
+}
+.cloud-text {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  font-size: 20px;
+  left: 15%;
+  bottom: 40px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .cloud-group {
+    gap: 5px;
+  }
+  .cloud-image {
+    width: 123px;
+    height: auto;
+  }
+  .cloud-container {
+    position: relative;
+  }
+  .cloud-text {
+    top: 30%;
+    font-size: 16px;
+    left: 2%;
+    bottom: 30px;
+  }
+}

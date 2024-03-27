@@ -1,0 +1,32 @@
+.text-place {
+  width: 100%;
+  height: 160px;
+  background-image: url("/textplace.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+}
+
+.text-place-text {
+  padding: 0.5px 10px;
+  margin-inline: 40px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .text-place {
+    width: 600px;
+    height: 130px;
+    background-image: none;
+    position: relative;
+  }
+  .text-place-img {
+    width: 630px;
+    height: 110px;
+  }
+
+  .text-place-text {
+    position: absolute;
+    bottom: 50px;
+    padding: 0.5px 0px;
+    margin: 0 0 0 40px ;
+  }
+}

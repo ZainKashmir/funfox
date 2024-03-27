@@ -1,0 +1,32 @@
+.week2-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    gap: 40px;
+  }
+  .week2-images img {
+    width: 170px;
+    height: 140px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 4px dotted #e3e3e3;
+  }
+  .sunny-text{
+      font-size: 16px;
+      font-weight: 400;
+      text-align: center;
+  }
+  .cold-text{
+      width: 240px;
+      font-size: 16px;
+      font-weight: 100;
+      text-align: center;
+      margin-top: 2px;
+  }
+  .cold-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }

@@ -1,0 +1,26 @@
+
+.week-two {
+    padding:20px 25px;
+    margin-top: 5%;
+    width: 1150px;
+    height: 485px;
+    background-color: #f7f9fe;
+    border-radius: 30px;
+  }
+
+.take-a-min {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+.week-two {
+    margin-top: 35%;
+    width: 640px;
+    height: 560px;
+    background-color: #f7f9fe;
+    border-radius: 30px;
+  }
+
+}

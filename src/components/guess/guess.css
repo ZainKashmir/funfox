@@ -1,0 +1,48 @@
+.guess-row {
+    margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.any-guess {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.outer-border {
+  border: 2px dotted #bfbfbf;
+  border-radius: 5px;
+  padding: 10px;
+  width: 70%;
+}
+
+.inner-border {
+  border-bottom: 1px solid #bfbfbf;
+  padding: 5px;
+}
+
+.hint-text {
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.guess-img{
+    width: 40px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .outer-border {
+        border: 2px dotted #bfbfbf;
+        border-radius: 5px;
+        padding: 10px;
+        width: 50%;
+      }
+      .any-guess {
+      text-align: center;
+      padding-top: 10px;
+      }
+      
+.hint-text {
+  padding-top: 11px;
+  }
+}

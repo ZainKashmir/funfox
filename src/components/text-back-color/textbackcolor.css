@@ -1,0 +1,40 @@
+.text-two {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #25A3A1;
+    border: dotted 2px white;
+    height: 30px;
+    padding: 30px 0 20px 0;
+  
+  }
+  .text-two-container{
+      padding-right:100px ;
+      height: 80px;
+  
+  }
+  .text-two-container p{
+    font-size: 18px;
+    text-align: justify;
+    color: white;
+  }
+  
+  
+  .girl-icon img {
+    width: 90px; /* Adjust icon size as needed */
+    height: 100px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1024px){
+    .text-two {
+      padding: 30px 0px 20px 15px;
+    
+    }
+    .text-two-container{
+      padding-right:10px ;
+      height: 80px;
+  }
+  .text-two-container p{
+    font-size: 16px;
+  }
+  }

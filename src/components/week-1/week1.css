@@ -1,0 +1,39 @@
+.week-one {
+  padding:20px 25px;
+  margin-top: 4.5%;
+  width: 1150px;
+  height: 485px;
+  background-color: #f7f9fe;
+  border-radius: 30px;
+}
+
+.week1-icon{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    left: 15%;
+}
+
+.header {
+    text-align: center;
+}
+.header-content{
+    background-color: #FE6784;
+    border-radius:40px ;
+    border: 2px dotted white;
+    padding:5px 20px;
+    font-weight: 400;
+    font-size: x-large;
+    color: white;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .week-one {
+        margin-top: 35%;
+        width: 640px;
+        height: 515px;
+      }
+    
+    }
+
